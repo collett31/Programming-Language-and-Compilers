@@ -9,10 +9,10 @@
 using namespace std;
  
 int isKeyword(char buffer[]){
-	char keywords[13][10] = {"char","const","double","float","for","if","int","long","string","return","short","void","while"};
+	char keywords[5][10] = {"char","double","display","int","string"};
 	int i, flag = 0;
 	
-	for(i = 0; i < 13; ++i){
+	for(i = 0; i < 5; ++i){
 		if(strcmp(keywords[i], buffer) == 0){
 			flag = 1;
 			break;
