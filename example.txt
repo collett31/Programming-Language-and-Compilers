@@ -1,0 +1,8 @@
+begin
+display "123\";
+A=10;
+B=20;
+display "B";
+C=A+B;
+display "C";
+end
