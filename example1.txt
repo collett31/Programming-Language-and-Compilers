@@ -2,7 +2,7 @@ begin
 input A=16;
 input B=45;
 display A;
-Display C;
+display C;
 display B;
 A=B+C;
 end
